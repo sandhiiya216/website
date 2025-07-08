@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f7e5d2;
+    font-size: 20px;
+    height: 15vh;
+}
+
+.navs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.navlist {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+
+.text-overlay {
+    transform: translate(50px, -100px);
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    color: white;
+    font-size: 33px;
+    width: 60%;
+    line-height: 85px;
+}
+
+.banner {
+    position: relative;
+}
+
+button.btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-img {
+    width: 100%;
+    filter: brightness(0.5);
+    height: 100vh;
+}
+
+.cart {
+    display: flex;
+    gap: 20px;
+}
+
+.pic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head {
+    font-size: 60px;
+}
+
+.break {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.para {
+    font-size: 10px;
+}
+
+
+.eat-content {
+    width: 25%;
+    transform: translate(50%, -20px);
+    line-height: 2;
+    font-size: 35px;
+}
+
+.eat-content1 {
+    width: 30%;
+    line-height: 2;
+    font-size: 20px;
+    transform: translate(-30%, -20px);
+
+}
+
+.png1 {
+    width: 135vh;
+    height: 69vh;
+    object-fit: cover;
+}
+
+.png {
+    width: 110vh;
+    height: 80vh;
+    object-fit: cover;
+}
+
+button.see {
+    padding: 6px 15px;
+}
+
+button.see:hover {
+    background-color: gray;
+    color: white;
+    border: none;
+}
+
+
+.eat-content2 {
+    width: 30%;
+    line-height: 2;
+    font-size: 20px;
+    transform: translate(50%, -20px);
+}
+
+.png2 {
+    width: 110vh;
+    height: 80vh;
+    object-fit: cover;
+}
+
+button.see2:hover {
+    background-color: gray;
+    color: white;
+    border: none;
+}
+.txt1{
+    text-align: left;
+    padding:5%;
+}
+.txt2{
+    text-align: center;
+    padding: 5%;
+    width: 50%;
+}
+.footer{
+    display: flex;
+    background-color: rgb(68, 87, 68);
+    color:white;
+}
+.txt3{
+    text-align: right;
+    padding: 6%;
+}
