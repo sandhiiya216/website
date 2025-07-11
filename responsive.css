@@ -1,0 +1,179 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header & Nav */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.navs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.navlist li {
+    cursor: pointer;
+}
+
+.cart {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Banner Section */
+.home-section {
+    position: relative;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    max-width: 90%;
+    text-align: center;
+}
+
+.text-overlay h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.text-overlay .buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Eat, Drink, Enjoy Sections */
+.eat {
+    padding: 40px 20px;
+}
+
+.pic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.eat-content,
+.eat-content1,
+.eat-content2 {
+    flex: 1 1 400px;
+}
+
+.eat-img {
+    flex: 1 1 400px;
+}
+
+.eat-img img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer */
+.footer {
+    background: #f1f1f1;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer > div {
+    flex: 1 1 250px;
+}
+
+/* Responsive Breakpoints */
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .navlist {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .cart {
+        margin-top: 10px;
+    }
+
+    .text-overlay h1 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .pic {
+        flex-direction: column;
+    }
+
+    .text-overlay h1 {
+        font-size: 1.5rem;
+    }
+
+    .text-overlay p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer > div {
+        text-align: center;
+    }
+}

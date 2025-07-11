@@ -94,11 +94,12 @@ button.btn {
     line-height: 2;
     font-size: 20px;
     transform: translate(-30%, -20px);
+    text-align: right;
 
 }
 
 .png1 {
-    width: 135vh;
+    width: 130vh;
     height: 69vh;
     object-fit: cover;
 }
@@ -138,21 +139,25 @@ button.see2:hover {
     color: white;
     border: none;
 }
-.txt1{
+
+.txt1 {
     text-align: left;
-    padding:5%;
+    padding: 5%;
 }
-.txt2{
+
+.txt2 {
     text-align: center;
     padding: 5%;
     width: 50%;
 }
-.footer{
+
+.footer {
     display: flex;
     background-color: rgb(68, 87, 68);
-    color:white;
+    color: black;
 }
-.txt3{
+
+.txt3 {
     text-align: right;
     padding: 6%;
 }
